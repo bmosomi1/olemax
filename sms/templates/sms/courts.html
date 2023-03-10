@@ -21,20 +21,20 @@
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-title-w-btn">
-              <h3 class="title">Water Networks</h3>
+              <h3 class="title">Stattions</h3>
               <p></p>
               <p>
                   {% if customer.id == 342 %}
                       <a class="btn btn-primary icon-btn" href="{% url 'sms:st_ann_add_patient' %}"><i class="fa fa-plus"></i>Add Patient</a>
                   {% endif %}
-                  <a class="btn btn-primary icon-btn" href="{% url 'sms:create_water_network' %}"><i class="fa fa-plus"></i>Add Network</a>
+                  <a class="btn btn-primary icon-btn" href="{% url 'sms:create_water_network' %}"><i class="fa fa-plus"></i>Add Station</a>
               </p>
             </div>
             <div class="tile-body table-responsive">
                 <table class="table table-hover table-bordered" id="sampleTable">
                     <thead>
                     <tr>
-                        <th>Group Name</th>
+                        <th>Station Name</th>
                         <th>Created At</th>
                         <th>Updated At</th>
 
